@@ -28,12 +28,13 @@ Candidate Result:
 
 -  The modification from the script counting the total votes number could count total votes number of any election results 
     
-    for row in reader:
-        total_votes = total_votes + 1
+    #for row in reader:
         
-        other_candidate_name = row[3]
+        #total_votes = total_votes + 1
         
-        if other_candidate_name not in candidate_options:
+        #other_candidate_name = row[3]
         
-     candidate_votes[other_candidate_name] += 1  
+        #if other_candidate_name not in candidate_options:
+        
+     #candidate_votes[other_candidate_name] += 1  
      
